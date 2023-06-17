@@ -1,0 +1,48 @@
+name: Character Request
+description: Want to see more characters in the font? Use this Issue Template to submit them
+title: "[:abc:] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### Thank you for taking the time to help me improve the resourcepack!
+        Please, fill in all required fields.
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Unicode font
+      description: Make sure you have "Force Unicode Font" option OFF in Language selection screen
+      options:
+        - label: I am sure that "Force Unicode Font" option is OFF
+          required: true
+  - type: input
+    id: characters
+    attributes:
+      label: Requested characters
+      description: |
+        Please put all requested characters here. Separate them with spaces
+        [✓] a b c % {
+        [✗] curved arrows
+        [✗] Greek Symbols
+      placeholder: a b c % {
+    validations:
+      required: true
+  - type: dropdown
+    id: version
+    attributes:
+      label: What resourcepack version do you use? You can find it in archive's name and in resourcepack's description in game.
+      options:
+        - 1.0
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Where did you download the resourcepack?
+      description: |
+        Please provide link to the source you downloaded the resourcepack from
+        Leave blank if you downloaded it from Modrinth
+      placeholder: https://modrinth.com/resourcepack/ten-font
+    validations:
+      required: false
