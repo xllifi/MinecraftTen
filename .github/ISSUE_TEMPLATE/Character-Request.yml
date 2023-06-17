@@ -6,8 +6,8 @@ body:
   - type: markdown
     attributes:
       value: |
-      ### Thank you for taking the time to help me improve the resourcepack!
-      Please, fill in all required fields.
+        ### Thank you for taking the time to help me improve the resourcepack!
+        Please, fill in all required fields.
   - type: checkboxes
     id: terms
     attributes:
