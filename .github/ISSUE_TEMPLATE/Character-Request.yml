@@ -21,10 +21,10 @@ body:
     attributes:
       label: Requested characters
       description: |
-      Please put all requested characters here. Separate them with spaces
-      [✓] a b c % {
-      [✗] curved arrows
-      [✗] Greek Symbols
+        Please put all requested characters here. Separate them with spaces
+        [✓] a b c % {
+        [✗] curved arrows
+        [✗] Greek Symbols
       placeholder: a b c % {
     validations:
       required: true
