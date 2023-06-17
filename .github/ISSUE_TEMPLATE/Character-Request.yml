@@ -1,5 +1,6 @@
 name: Character Request
 description: Want to see more characters in the font? Use this Issue Template to submit them
+assignees: xlifi
 title: "[:abc:] "
 labels: ["enhancement"]
 body:
