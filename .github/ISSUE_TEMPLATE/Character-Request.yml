@@ -40,7 +40,9 @@ body:
     id: source
     attributes:
       label: Where did you download the resourcepack?
-      description: Please provide link to the source you downloaded the resourcepack from
+      description: |
+        Please provide link to the source you downloaded the resourcepack from
+        Leave blank if you downloaded it from Modrinth
       placeholder: https://modrinth.com/resourcepack/ten-font
     validations:
       required: false
