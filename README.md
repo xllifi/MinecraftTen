@@ -1,4 +1,4 @@
-# <img src="https://i.imgur.com/8Z4nN7f.png"  width="32px" height="32px"> About
+# <img src="https://cdn.modrinth.com/data/A07sPP6a/76e2bd760a84f77b232c9fa2ea161b8ab45809c5.png"  width="32px" height="32px"> About
 I was heavily inspired by looks of ORE UI (Bedrock Edition) I had in my memory and [GabrielDja's GUI SimpleStylized](https://modrinth.com/resourcepack/gui-simplestylized) so i made this resourcepack to make Minecraft's GUI look fancier.
 
 ## Recomendations
